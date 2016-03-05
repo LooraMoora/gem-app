@@ -265,15 +265,16 @@ section{
 
 footer{
 	height: 16px;
-	padding: 12px 0;
+	padding: 10px 0;
 	text-align: center;
 	background: #D3DDD9;
   color: #606060;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 footer p{
   margin: 0;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px){
