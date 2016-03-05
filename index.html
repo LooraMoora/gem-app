@@ -1,0 +1,128 @@
+<html>
+	<head>
+  		<title>Gem</title>
+		<link rel="stylesheet" href="css/style.css" data-bundle="base">
+		<!--   <link rel="stylesheet" href="css/style.css" data-bundle="websites"> -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+		<meta name="description" content=" ">
+		<meta name="keywords" content=" ">
+
+		<!-- Facebook -->
+		<meta property="og:site_name" content="Gem">
+		<meta property="og:title" content=" ">
+		<meta property="og:description" content=" ">
+		<meta property="og:url" content="http://gem-app.com">
+		<meta property="og:image" content=" ">
+		<meta property="og:type" content="website">
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="app">
+		<meta name="twitter:title" content="Gem">
+		<meta name="twitter:description" content=" ">
+		<meta name="twitter:image:src" content=" ">
+		<meta name="twitter:domain" content="http://gem-app.com">
+		<meta name="twitter:app:name:iphone" content="Gem">
+		<meta name="twitter:app:id:iphone" content=" ">
+		<meta name="twitter:app:name:ipad" content="Gem">
+		<meta name="twitter:app:id:ipad" content=" ">
+		
+
+		<!-- Apple Smart App Banner -->
+		<meta name="apple-itunes-app" content=" ">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<img src="img/gem-icon.png" class="app-logo">
+			<h1>Gem</h1>
+			<h2>Never forget amazing moments.<br />Engrave a Gem to remember them!</h2>
+		</header>
+
+
+		<section>
+			
+			<div id="slide">
+			</div>
+
+			<div id="box_video">
+				<div id="video">
+					<video autoplay="autoplay">
+				  		<source src="img/add_gem.mp4" type="video/mp4" >
+						Your browser does not support the video tag.
+					</video>	
+				</div>
+			</div>
+
+			<div id="app-store-badge-container">
+				<a href="https://itunes.apple.com/app/id596595032?mt=8" id="app-store-badge" target="_blank">
+					<img src="https://d2kfjaekmjmy1l.cloudfront.net/images/websites/public/app-store-black-on-color@2x-vd3eb32e86e4d.png">
+				</a>
+			</div>	
+
+		</section>
+
+		<footer>
+			<div class="container">
+				<p>Made by L & L</p>
+			</div>
+		</footer>
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script>
+		    window.skit = (function() {
+		      var objects = {};
+		      var modules = {};
+		      function define(resourcePath, deps, fn) {
+		        modules[resourcePath] = {deps: deps, fn: fn};
+		      }
+		      function load(resourcePath) {
+		        if (!(resourcePath in objects)) {
+		          if (resourcePath in modules) {
+		            var module = modules[resourcePath];
+		            var args = [];
+		            for (var i = 0; i < module.deps.length; i++) {
+		              args.push(load(module.deps[i]));
+		            }
+		            objects[resourcePath] = module.fn.apply(window, args);
+		          } else {
+		            objects[resourcePath] = null;
+		          }
+		        }
+		        return objects[resourcePath];
+		      }
+		      return {
+		        define: define,
+		        modules: modules,
+		        env: {"productionAPI":true,"appEngineHost":"https://launchkit-images.appspot.com/","publicRoot":"public"},
+		        load: load
+		      };
+		    })();
+		</script>
+		<script src="https://d2kfjaekmjmy1l.cloudfront.net/base-v5c09224dced9.js" data-bundle="base"></script>
+		<script src="https://d2kfjaekmjmy1l.cloudfront.net/websites-v7c0d3223b0f3.js" data-bundle="websites"></script>
+		<script>
+		    (function() {
+		        var netproxy = skit.load("skit.platform.netproxy:js");
+		          netproxy.__register__("lk", {"name":"lk","csrfToken":"KPaIVBMqz6iIXB9zOzQFfg=="});
+
+		      var ControllerKlass = skit.load("public.websites.__id__.WebsitePublic:js");
+		      var controller = new ControllerKlass({"__id__":"example"});
+
+		      var controllerProperties = {"website":{"domain":"cluster.co","font":"Lato","termsLink":"http://cluster.co/terms","supportLink":"http://cluster.co/help","appName":"Cluster","tagline":"Privately share special moments with friends and family","frameScreenshots":"white","itunesId":"596595032","longDescription":"Cluster makes it possible to create private groups where you share moments through photos and videos with the people you care about. Create a group with family, a group of friends, coworkers, people from your home town, or anyone else!\r\n\r\nGreat for:\r\n• New Moms! Share photos of a new baby with close friends and family without spamming everyone on other social networks\r\n• College Students! Share memories with friends not appropriate for Facebook\r\n• Families! Keep in touch even if you’re not in the same place.\r\n\r\nTons of people already trust Cluster. Here’s why:\r\n\r\n• Private \u0026 secure: Only invited members of the group can see what you post.\r\n• An app for everyone: Access Cluster through gorgeous mobile apps and the web.\r\n• Relevant notifications: Know when people you invited post new things to the group.","playStoreId":"com.getcluster.android","images":{"logo":{"url":"https://cluster-static.s3.amazonaws.com/images/marketing/presskit/cluster-logo-white-v1f813d97.png"},"screenshots":{"iPhone":[{"url":"http://a3.mzstatic.com/us/r30/Purple3/v4/46/6a/f0/466af0fb-f1d7-80b5-6d03-ccd36ad904ef/screen1136x1136.jpeg"},{"url":"http://a2.mzstatic.com/us/r30/Purple3/v4/4d/41/8c/4d418cfe-a384-312b-f04f-ac336c3359ff/screen1136x1136.jpeg"},{"url":"http://a5.mzstatic.com/us/r30/Purple5/v4/21/a6/5a/21a65abd-2f66-6265-1fb0-c08c72e403b3/screen1136x1136.jpeg"},{"url":"http://a3.mzstatic.com/us/r30/Purple3/v4/a6/6d/4e/a66d4e25-d0f7-d1d0-05ab-edffa3899c14/screen1136x1136.jpeg"},{"url":"http://a4.mzstatic.com/us/r30/Purple1/v4/33/a0/d0/33a0d056-1761-9c51-4bb7-35813eb14f1f/screen1136x1136.jpeg"}]},"background":{"url":"https://cluster-static.s3.amazonaws.com/images/namespaces/default/homepage-billboard-v4bead2de.jpg"},"icon":{"url":"http://a1668.phobos.apple.com/us/r30/Purple3/v4/01/c6/f0/01c6f095-df15-7bd9-03f6-53dba727cc8b/mzl.clrnjwyb.png"}},"template":"8","primaryColor":"#0092F2","keywords":"private,group,social,network,space,family,album,photo,video,collaborative,shared,sharing,event,baby","privacyLink":"http://cluster.co/privacy","shortDescription":"Cluster gives you a private space to share photos and memories with the people you choose, away from social media. Make your own groups and share pics, videos, comments, and chat!","id":"example","homeUrl":"/websites/example"}};
+		      for (var k in controllerProperties) {
+		        controller[k] = controllerProperties[k];
+		      }
+
+		      window.skit.controller = controller;
+		      controller.recursiveLoad();
+		      controller.recursiveReady();
+		    })();
+		</script>
+	</body>
+</html>
