@@ -204,10 +204,16 @@ th {
 }
 
 body{
-	font: 100 16px/1.2 "Lato";
+	font: 300 16px/1.4 "Lato";
+}
+h1{
+  padding: 0 35px;
+  font-size: 28px;
 }
 h2{
 	font-weight: 300;
+  font-size: 20px;
+  padding: 0 35px;
 }
 header{
 	padding: 50px 0 10px;
@@ -235,7 +241,7 @@ section{
 .app-logo{
   width: 80px;
   height: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #video{
@@ -249,8 +255,8 @@ section{
 #app-store-badge-container{
   float: left;
 	height: 60px;
-	width: 66.666666%;
-  margin-left: 33.333333%;
+  width: 100%;
+  margin-top: 100px;
 	text-align: center;
 }
 #app-store-badge img{
@@ -286,7 +292,9 @@ footer p{
     position: absolute;
     margin-top: 10%;
   }
-
+  .app-logo{
+    margin-bottom: 40px;
+  }
   section{
     min-height: calc(100% - 40px);
   }
@@ -305,6 +313,9 @@ footer p{
   }
   #app-store-badge-container{
     position: absolute;
+    height: 60px;
+    width: 66.666666%;
+    margin-left: 33.333333%;
     bottom: 20%;
   }
   footer{
