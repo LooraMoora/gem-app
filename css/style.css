@@ -219,9 +219,11 @@ header{
 	padding: 50px 0 10px;
 	background: #fff;
 	text-align: center;
+  position: relative;
+  z-index: 2;
 }
 section{
-	text-align: center;	
+	text-align: center;
   position: relative;
   overflow: hidden;
 }
@@ -326,5 +328,3 @@ footer p{
     bottom: 0;
   }
 }
-
-
