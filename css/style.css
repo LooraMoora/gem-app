@@ -306,7 +306,8 @@ section{
   background: url("../img/iphone.png") center;
   background-size: cover;
 }
-#video video{
+#video video,
+#video img{
   width: 84.459459459%;
 }
 #app-store-badge-container{
